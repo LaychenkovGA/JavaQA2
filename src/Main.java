@@ -2,13 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         int bilet = 13_676;
-        boolean isRegistered = true;
 
         int mile;
-        if (isRegistered) {
+        if (bilet >= 0) {
             mile = 1;
-        }
-        else {
+        } else {
             mile = 0;
         }
 
