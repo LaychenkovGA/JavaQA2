@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
 
-        int bilet = 13_676;
+        int ticket = 13_676;
 
-        int mile;
-        if (bilet >= 0) {
-            mile = 1;
+        int miles;
+        if (ticket >= 0) {
+            miles = 1;
         } else {
-            mile = 0;
+            miles = 0;
         }
 
-        int bonus = bilet / 20 * mile;
+        int bonus = ticket / 20 * miles;
 
-        System.out.println("Стоимость билета " + bilet + " рублей");
+        System.out.println("Стоимость билета " + ticket + " рублей");
         System.out.println("Начислено " + bonus + " бонусов");
     }
 }
